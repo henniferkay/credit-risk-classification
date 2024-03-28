@@ -4,13 +4,14 @@
 The aim of this project was to train and evaulate a logistic regression model using historical lending activity data to identify the creditworthiness of borrowers.
 
 The dataset included information on:
-    * loan size
-    * interest rate
-    * borrower's income
-    * debt to income ratio
-    * number of accounts the borrower has held
-    * derogatory marks against the borrower
-    * total debt
+
+* loan size
+* interest rate
+* borrower's income
+* debt to income ratio
+* number of accounts the borrower has held
+* derogatory marks against the borrower
+* total debt
 
 ## Methods
 First, the lending data (77,536 rows or borrowers) were imported from a CSV file into a Pandas Dataframe in the Jupyter Notebook (`credit_risk_classification.ipynb`). The data were then split into training and testing datasets using the sklearn library's `train_test_split` function.
